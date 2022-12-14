@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1>Tienda Muebles</h1>
+      <h1 class="nombre-sitio">Tienda<span> Muebles</span></h1>
     </header>
-    <nav>
+    <nav class="nav-principal contenedor">
       <a href="/index.html">Inicio</a>
       <a href="/nosotros.html">Nosotros</a>
       <a href="/nosotros.html">Tienda</a>
@@ -18,7 +20,8 @@
       <a href="/nosotros.html">Galeria</a>
       <a href="/nosotros.html">Contacto</a>
     </nav>
-    <section>
+    <div class="hero"></div>
+    <section class="contenedor">
       <h3>Categorías de Producto</h3>
       <div>
         <img src="img/categoria1.jpg" alt="Imagen categoria" />
@@ -33,7 +36,7 @@
         <a href="#">Cocina</a>
       </div>
     </section>
-    <section>
+    <section class="contenedor">
       <div>
         <h2>Sobre nosotros</h2>
         <div>
@@ -122,7 +125,7 @@
         </div>
       </div>
     </section>
-    <main>
+    <main class="contenedor">
       <h2>Nuestros productos</h2>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
@@ -157,6 +160,5 @@
         </nav>
       </div>
     </footer>
-    <main></main>
   </body>
 </html>
